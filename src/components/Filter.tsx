@@ -1,6 +1,6 @@
 import { IoSearch } from "react-icons/io5";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
-import useCountries, { Country } from "../hooks/useCountries";
+import useCountries from "../hooks/useCountries";
 import { useEffect, useState } from "react";
 import { useCountryStore } from "../store";
 
